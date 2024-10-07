@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title><link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+
+    <header>
+        <h1 class="text-4xl text-center mt-10 font-semibold">AI Universe Hub</h1>
+        <div class="text-center mt-10">
+            <button class="btn text-white btn-error">Sort By Date</button>
+        </div>
+    </header>
+
+
+    <main class="container mx-auto my-8">
+        <section id="container" class="grid grid-cols-1 px-10 lg:px-2 lg:grid-cols-3 md:grid-cols-2 gap-5">
+
+        </section>
+        <div class="text-center mt-8">
+            <button class="btn text-white btn-error">See More</button>
+        </div>
+
+      
+ 
+<dialog id="learn_more" class="modal">
+  <div class="modal-box">
+    <form method="dialog">
+      <button class="btn btn-sm btn-circle btn-ghost absolute right-2 top-2">✕</button>
+    </form>
+    <h3 class="text-lg font-bold">Hello!</h3>
+    <p class="py-4">Press ESC key or click on ✕ button to close</p>
+  </div>
+</dialog>
+    </main>
+
+    <script src="set.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
